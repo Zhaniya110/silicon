@@ -1,0 +1,163 @@
+{
+"$schema": "https://schemas.wp.org/trunk/theme.json",
+"version": 2
+,
+"settings": {
+    "color": {
+    "defaultPalette": false,
+    "palette": [
+    { 
+        "color": "#F3F6FF",
+        "name": "s-Gray-100",
+        "slug": "s-gray-100"
+
+    },
+    {
+        "color": "#EFF2FC",
+        "name": "s-Gray-200",
+        "slug": "s-gray-200"
+    },
+    {
+        "color": "#E2E5F1",
+        "name": "s-Gray-300",
+        "slug": "s-gray-300"
+    },
+    {
+        "color": "#D4D7E5",
+        "name": "s-Gray-400",
+        "slug": "s-gray-400"
+    },
+    {
+        "color": "#B4B7C9",
+        "name": "s-Gray-500",
+        "slug": "s-gray-500"
+    },
+    {
+        "color": "#9397AD",
+        "name": "s-Gray-600",
+        "slug": "s-gray-600"
+    },
+    {
+        "color": "#585C7B",
+        "name": "s-Gray-700",
+        "slug": "s-gray-700"
+    },
+    {
+        "color": "#3E4265",
+        "name": "s-Gray-800",
+        "slug": "s-gray-800"
+
+    }
+,
+{
+    "color": "#131022",
+    "name": "s-Gray-900",
+    "slug": "s-gray-900"
+},
+{
+    "color": "#6366F1",
+    "name": "s-Primary",
+    "slug": "s-primary"
+},
+{
+    "color": "#EF4444",
+    "name":"s-Error",
+    "slug": "s-error"
+},
+{
+    "color": "#22C55E",
+    "name": "s-Success",
+    "slug": "s-success"
+},
+{
+    "color": "#FFBA08",
+    "name": "s-Warning",
+    "slug": "s-warning"
+},
+{
+    "color": "#4C82F7",
+    "name": "s-Info",
+    "slug": "s-info"
+}
+
+
+
+    ],
+    "defaultGradients": false,
+    "gradients": [
+        {
+            "gradient": "linear-gradient(#6366F1,#8B5CF6,#D946EF)",
+            "name": "S-Gradient",
+            "slug": "s-gradient"
+        }
+    ]  
+
+
+
+             },
+    "shadow": {
+    "defaultPresets": false,
+    "presets": [
+        {
+            "name": "s-S",
+            "shadow": "0px 2px 6.400000095367432px -1px rgba(19, 16, 34, 0.03), 0px 4.400000095367432px 12px -1px rgba(19, 16, 34, 0.06)",
+            "slug": "s"
+        },
+        {
+            "name": "s-L",
+            "shadow": "0px 4px 13px -2px rgba(19, 16, 34, 0.06), 0px 4.800000190734863px 24.399999618530273px -6px rgba(19, 16, 34, 0.10)",
+            "slug": "s-l"
+        },
+        {
+            "name": "s-brand-btn",
+            "shadow": "0px 8px 18px -8px rgba(99, 102, 241, 0.90)",
+            "slug": "s-brand-btn"
+        },
+        {
+            "name": "S-Secondary",
+            "shadow": "0px 8px 18px -8px rgba(19, 16, 34, 0.15)",
+            "slug": "s-secondary"
+        }
+    ]
+            },
+    "typography": {
+        
+        "fontFamilies": [
+            {
+                "fontFamily": "Manrope, sans-serif",
+                "slug": "s-manrope",
+                "name": "Silicon Manrope"
+            },
+            {
+                "fontFamily": "Helvetica Neue, sans-serif",
+                "slug": "s-helvetica-neue",
+                "name": "Silicon Helvetica Neue"
+            },
+            {
+                "fontFamily": "SF Pro Display, sans-serif",
+                "slug": "s-sf-pro-display",
+                "name": "Silicon SF Pro Display"
+            }
+        ],
+        "fontSizes": [
+            { "slug": "s-D1", "size": "5rem", "name": "Display 1"},
+            { "slug": "s-D2", "size": "4.5rem", "name": "Display 2"},
+            { "slug": "s-D3", "size": "4rem", "name": "Display 3"},
+            { "slug": "s-D4", "size": "3.5rem", "name": "Display 4"},
+            { "slug": "s-D5", "size": "3rem", "name": "Display 5"},
+            { "slug": "s-D6", "size": "2.625rem", "name": "Display 6"}
+        ]
+    }
+},
+"styles": {
+    "blocks": {
+        "core/image": {
+            "shadow": "var( --wp--preset--shadow--s )"
+        }
+    }
+} 
+       
+        
+       
+    
+    }
